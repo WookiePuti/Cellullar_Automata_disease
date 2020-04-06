@@ -33,7 +33,9 @@ class SimulationInterface(ABC):
 
 
 
-
+class Miod:
+    def __init__(self, b):
+        self.b = b
 
 
 class Mleko:
