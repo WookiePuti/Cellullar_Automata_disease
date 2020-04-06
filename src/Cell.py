@@ -9,7 +9,7 @@ class CellStatus(enum.Enum):
     recovered = 4
 
 
-class CellDisease(CellInterface): #single cell representing some area of country or one person
+class CellDisease(CellInterface): #single cell representing some area of country or oneperson
     def __init__(self, x_coord, y_coord, cell_status: CellStatus,   *args, **kwargs):
         self.cell_status = cell_status
         self.illness_counter = 0
